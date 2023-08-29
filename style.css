@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: Lato;
+}
+
+/* banner section */
+
+.banner-section {
+  display: flex;
+  gap: 97px;
+  align-items: center;
+  background: rgba(229, 84, 115, 0.1);
+  justify-content: space-between;
+}
+
+.banner-coloum1 {
+  padding-top: 190px;
+  padding-bottom: 145px;
+  padding-left: 240px;
+}
+
+.banner-section img {
+  padding-top: 50px;
+  padding-right: 240px;
+}
+
+.section-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.btn-primary {
+  padding: 20px 43px;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+}
