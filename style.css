@@ -220,9 +220,74 @@ textarea {
 .social-media {
   width: 1440px;
   margin: 0 auto;
+  margin-bottom: 128px;
 }
 
 .social-media-post {
   display: flex;
   justify-content: space-around;
+}
+
+.get-latest-deals {
+  width: 1440px;
+  height: 449px;
+  margin: 0 auto;
+  background-image: url("Flower Asset/Rectangle 9.png");
+}
+
+.deals-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 190px;
+}
+
+.deals-items {
+  padding: 70px;
+  align-items: center;
+  text-align: center;
+}
+
+.deals-items input[type="email"] {
+  display: inline-block;
+  width: 700px;
+  height: 30px;
+  margin-right: 14px;
+}
+
+.footer {
+  padding: 50px;
+  width: 1922px;
+  margin-top: 128px;
+  background: #111010;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.footer-differenttile {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-description {
+  margin-top: 28px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer-copy-right {
+  margin-top: 32px;
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
