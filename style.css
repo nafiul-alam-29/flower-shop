@@ -181,6 +181,7 @@ main {
   background: rgba(5, 151, 160, 0.15);
   border-radius: 8px;
   text-align: center;
+  margin-bottom: 128px;
 }
 
 .btn-order {
@@ -217,5 +218,11 @@ textarea {
 }
 
 .social-media {
-  margin-top: 128px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.social-media-post {
+  display: flex;
+  justify-content: space-around;
 }
