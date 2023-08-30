@@ -68,7 +68,7 @@ main {
   margin-bottom: 24px;
 }
 
-.featured-section {
+.featured-section-description {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-size: 18px;
@@ -134,6 +134,8 @@ main {
   text-decoration-line: underline;
 }
 
+/* support section */
+
 .support-container {
   margin-top: 128px;
   display: flex;
@@ -149,4 +151,71 @@ main {
   text-align: center;
   font-size: 24px;
   font-weight: 600;
+}
+
+/* hot deal section */
+
+.hot-deal {
+  margin-top: 128px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  text-align: center;
+}
+
+.hot-deals-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 200px;
+  padding: 50px;
+}
+
+.hot-deals-prize {
+  color: #e55473;
+}
+
+/* new section */
+
+.order-flower {
+  margin-top: 128px;
+  background: rgba(5, 151, 160, 0.15);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.btn-order {
+  padding: 20px 43px;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #8cabff;
+}
+
+.order-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  align-items: center;
+  gap: 20px;
+}
+
+.order-items input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 15px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 700px;
+  border: 0;
+  border-radius: 5px;
+  background: #fdfdfd;
+  width: 150%;
+}
+
+.social-media {
+  margin-top: 128px;
 }
